@@ -11,16 +11,25 @@ frac1 = str(frac)
 
 print(frac)
 
-if frac1.count("1") > 1:
-    a = 1
+if frac1.count("1") >= 1:
+    if frac1.count("1") > 1:
+        a = 1
+    else:
+        a = .5
 else:
     a = 0
-if frac1.count("2") > 1:
-    b = 1
+if frac1.count("2") >= 1:
+    if frac1.count("2") > 1:
+        b = 1
+    else:
+        b = .5
 else:
     b = 0
 if frac1.count("3") > 1:
-    c = 1
+    if frac1.count("3") > 1:
+        c = 1
+    else:
+        c = .5
 else:
     c = 0
 if frac1.count("4") > 1:
