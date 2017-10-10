@@ -129,7 +129,8 @@ if counterOf2 >= counterOf5: #telling to print the highest number of non repeat
     print("You have", counterOf2, "non repeating digits")
 else:
     print("You have", counterOf5, "non repeating digits")
-
+"""checks the prime factorization of the denominator, gives you the repeating 
+based on the number of each prime factor"""
 if counterOf47 >= 1:
     print("You have at most 46 repeating digits")
 elif counterOf43 >= 1:
