@@ -38,8 +38,7 @@ print(denominator_prime)
 
 
 
-if counterOf2 >= counterOf5:
+"""if counterOf2 >= counterOf5:
     print("You have", counterOf2, "non repeating digits")
 else:
-    print("You have", counterOf5, "non repeating digits")
-print(counterOf3)
+    print("You have", counterOf5, "non repeating digits")"""
