@@ -149,9 +149,9 @@ elif counterOf19 >= 1:
 elif counterOf17 >= 1:
     print("You have at most 16 repeating digits")
 elif counterOf13 >= 1:
-    print("You have at most 12 repeating digits")
+    print("You have at most 12 repeating digits, but it's most likely 6")
 elif counterOf11 >= 1:
-    print("You have at most 10 repeating digits")
+    print("You have at most 10 repeating digits, but it's most likely 2")
 elif counterOf7 >= 1:
     print("You have 6 repeating digits")
 elif counterOf3 >=1:
