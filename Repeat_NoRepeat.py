@@ -33,7 +33,7 @@ while i <= 5:
     i += 1
 i = 1 
 
-while i <= 2: #same thing with the powers of two above, doing the same with 5
+while i <= 2: #same thing with the powers of 2 above, doing the same with 5
     if denominator % (5 ** i) == 0:
         counterOf5 += 1
     i += 1
@@ -41,10 +41,10 @@ i = 1
 
 denominator_2 = denominator / (2 ** counterOf2) 
 """finding what's left of the denominator after diving through 
-by the powers of two that go into it"""
+by the powers of 2 that go into it"""
 
 denominator_prime = denominator_2 / (5 ** counterOf5) 
-#finding the enddenominator after dividing through by 2 and 5
+#finding the final denominator after dividing through by the powers of 2 and 5
 
 while i <= 3: #doing the powers thing with 3
     if denominator_prime % (3 ** i) == 0:
@@ -125,7 +125,7 @@ while i < 2: #now doing with 47
 i = 1
 
 
-if counterOf2 >= counterOf5:
+if counterOf2 >= counterOf5: #telling to print the highest number of non repeat
     print("You have", counterOf2, "non repeating digits")
 else:
     print("You have", counterOf5, "non repeating digits")
