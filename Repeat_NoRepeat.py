@@ -1,6 +1,6 @@
 #Charlie Goodrich
 #10/02/17
-#Repeat_NoRepeat - inputs numberator and denominator, tells you # of repeating numbers
+#Repeat_NoRepeat - inputs denominator, tells you # of repeating numbers
 
 numerator = int(input("Enter a numerator value equal to 1: "))
 denominator = int(input("Enter a denominator value between 1 and 50: "))
