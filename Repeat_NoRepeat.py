@@ -157,6 +157,8 @@ elif counterOf7 >= 1:
     print("You have 6 repeating digits")
 elif counterOf3 >=1:
     print("You have 1 repeating digit")
+else:
+    print("You have 0 repeating digits")
 
 
 
