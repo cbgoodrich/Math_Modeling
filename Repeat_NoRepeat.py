@@ -10,8 +10,8 @@ frac = numerator / denominator
 print(frac)
 
 i = 1
-counterOf2 = 0 #the counter of factors of two in the denominator
-counterOf5 = 0 #the counter of factors of five in the denominator
+counterOf2 = 0 #the counter of factors of 2 in the denominator
+counterOf5 = 0 #the counter of factors of 5 in the denominator
 counterOf3 = 0
 counterOf7 = 0
 counterOf11 = 0
