@@ -25,7 +25,7 @@ counterOf37 = 0
 counterOf41 = 0
 counterOf43 = 0
 counterOf47 = 0
-""" since the denominator is limited to 100, dividing through
+""" since the denominator is limited to 50, dividing through
 by all the powers of 2 less than 50"""
 while i <= 5: 
     if denominator % (2 ** i) == 0:
